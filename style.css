@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+button:hover {
+    cursor: pointer;
+}
+input {
+    border: 0;
+}
+input:focus {
+    outline: 0;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 1700px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-table {
+    width: 550px;
+    height: 550px;
+    margin: 0 auto;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row-numbers, .column-numbers {
+    display: flex;
+}
+.row-numbers {
+    flex-direction: row;
+    width: 550px;
+    height: 50px;
+    padding-left: 50px;
+}
+.row-numbers p, .column-numbers p {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17.5px;
+    background-color: rgb(255, 177, 82);
+}
+.column-numbers {
+    flex-direction: column;
+    width: 50px;
+    height: 500px;
+}
+.table10x10 {
+    width: 500px;
+    height: 500px;
+}
+.table10x10 div {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 50px;
+}
+.table10x10 div p {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17.5px;
+}
+#JSON-table {
+    border: 1.65px solid black;
+    border-collapse: collapse;
+}
+#JSON-table th, td {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17.5px;
+    width: 150px;
+    height: 40px;
+    margin: 0;
+    border: 1.65px solid black;
+    text-align: center;
+}
+.bank-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgb(0, 201, 201);
+    justify-content: space-around;
+    color: #ffffff;
+    text-align: center;
+}
+.bank-form button {
+    width: 20%;
+    height: 15%;
+    border: 0;
+    background-color: #ff9800;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+.bank-form button:hover {
+    background-color: #ff9900c7;
+    cursor: pointer;
+}
+.bank-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bank-form label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.bank-form input {
+    width: 150px;
+    height: 20px;
+}
+.info-background {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10;
+}
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: darkcyan;
+    padding: 80px;
+    border-radius: 10px;
+    height: 400px;
+    flex-basis: 700px;
+    max-width: 700px;
+    color: #ffffff;
+    text-align: center;
+}
+#info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+}
+#info div p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+#info div.info-button-choose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#info div.info-button-choose button {
+    width: 40%;
+    height: 35%;
+    border: 0;
+    background-color: #ff9800;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+#info div.info-button-choose button:hover {
+    background-color: #ff9900c7;
+    cursor: pointer;
+}
+.secoption-btn-div {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#info .secoption-btn-div p {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: -15px;
+}
+.bank-form-p1, .bank-form-p2 {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.info-background .close {
+    position: absolute;
+    margin-left: 780px;
+    margin-bottom: 480px;
+    width: 50px;
+    height: 50px;
+}
+.info-background .close:hover {
+    cursor: pointer;
+}
